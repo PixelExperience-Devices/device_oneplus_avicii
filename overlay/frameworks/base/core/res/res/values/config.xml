@@ -585,6 +585,11 @@
          -->
     <string name="config_mainBuiltInDisplayCutout">M-436.5,33L-319.5,33A38.5,38.5 0,0 1,-281 71.5L-281,71.5A38.5,38.5 0,0 1,-319.5 110L-436.5,110A38.5,38.5 0,0 1,-475 71.5L-475,71.5A38.5,38.5 0,0 1,-436.5 33z M -475,0 L -283,0 Z M -540,0 L -540,113 Z</string>
 
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+         -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
     <!-- The default peak refresh rate for a given device. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
 
