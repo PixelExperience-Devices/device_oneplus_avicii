@@ -86,9 +86,6 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # Bluetooth
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
-# Charger
-BOARD_CHARGER_DISABLE_INIT_BLANK := true
-
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
