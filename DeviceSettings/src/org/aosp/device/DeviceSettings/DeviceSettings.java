@@ -45,7 +45,6 @@ public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     public static final String KEY_SRGB_SWITCH = "srgb";
-    public static final String KEY_HBM_SWITCH = "hbm";
     public static final String KEY_DC_SWITCH = "dc";
     public static final String KEY_DCI_SWITCH = "dci";
     public static final String KEY_WIDE_SWITCH = "wide";
@@ -57,7 +56,6 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_NOTIF_VIBSTRENGTH = "vib_notif_strength";
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
 
-    private static TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mDCModeSwitch;
     private ListPreference mTopKeyPref;
     private ListPreference mMiddleKeyPref;
@@ -87,11 +85,6 @@ public class DeviceSettings extends PreferenceFragment
         mBottomKeyPref = (ListPreference) findPreference(Constants.NOTIF_SLIDER_BOTTOM_KEY);
         mBottomKeyPref.setValueIndex(Constants.getPreferenceInt(getContext(), Constants.NOTIF_SLIDER_BOTTOM_KEY));
         mBottomKeyPref.setOnPreferenceChangeListener(this);
-
-        mHBMModeSwitch = (TwoStatePreference) findPreference(KEY_HBM_SWITCH);
-        mHBMModeSwitch.setEnabled(HBMModeSwitch.isSupported());
-        mHBMModeSwitch.setChecked(HBMModeSwitch.isCurrentlyEnabled(this.getContext()));
-        mHBMModeSwitch.setOnPreferenceChangeListener(new HBMModeSwitch());
 
         mDCModeSwitch = (TwoStatePreference) findPreference(KEY_DC_SWITCH);
         mDCModeSwitch.setEnabled(DCModeSwitch.isSupported());
