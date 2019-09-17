@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
 
 # Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.1-impl.recovery \
     bootctrl.lito.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
