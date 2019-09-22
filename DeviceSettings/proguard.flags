@@ -1,0 +1,3 @@
+-keep class org.aosp.device.DeviceSettings.* {
+  *;
+}

@@ -1,9 +1,19 @@
+on post-fs
+    # Vibration
+    chown system system /sys/class/leds/vibrator/vmax_override
+    write /sys/class/leds/vibrator/vmax_override 1
+    chown system system /sys/class/leds/vibrator/vmax_mv_user
+    chown system system /sys/class/leds/vibrator/vmax_mv_call
+    chown system system /sys/class/leds/vibrator/vmax_mv_strong
+
 on boot
     # Fingerprint
     chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
 
     # OTG
     write /sys/class/power_supply/usb/otg_switch 1
+    chmod 0660 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en
+    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en
 
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
