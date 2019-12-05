@@ -232,6 +232,9 @@ vendor.usb.use_gadget_hal=0
 # USB String
 vendor.usb.product_string=OnePlus Nord
 
+# Verity
+ro.apk_verity.mode=2
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 
