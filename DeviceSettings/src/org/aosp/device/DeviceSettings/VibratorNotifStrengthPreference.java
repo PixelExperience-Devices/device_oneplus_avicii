@@ -42,7 +42,7 @@ public class VibratorNotifStrengthPreference extends Preference implements
     private int mMaxValue;
     private Vibrator mVibrator;
 
-    private static final String FILE_LEVEL = "/sys/class/leds/vibrator/vmax_mv_strong";
+    private static final String FILE_LEVEL = "/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_mv_strong";
     private static final long testVibrationPattern[] = {0,250};
 
     public VibratorNotifStrengthPreference(Context context, AttributeSet attrs) {

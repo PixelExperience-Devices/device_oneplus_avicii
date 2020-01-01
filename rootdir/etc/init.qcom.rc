@@ -1,10 +1,10 @@
 on post-fs
     # Vibration
-    chown system system /sys/class/leds/vibrator/vmax_override
-    write /sys/class/leds/vibrator/vmax_override 1
-    chown system system /sys/class/leds/vibrator/vmax_mv_user
-    chown system system /sys/class/leds/vibrator/vmax_mv_call
-    chown system system /sys/class/leds/vibrator/vmax_mv_strong
+    chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_override
+    write /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_override 1
+    chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_mv_user
+    chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_mv_call
+    chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_mv_strong
 
 on boot
     # Fingerprint

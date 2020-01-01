@@ -34,3 +34,6 @@
 /(product|system/product)/vendor_overlay/[0-9]+/etc(/.*)?        u:object_r:vendor_configs_file:s0
 /(product|system/product)/vendor_overlay/[0-9]+/lib(64)?/hw      u:object_r:vendor_hal_file:s0
 /(product|system/product)/vendor_overlay/[0-9]+/overlay(/.*)?    u:object_r:vendor_overlay_file:s0
+
+# Vibrator
+/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator(/.*)?           u:object_r:sysfs_vibrator:s0
