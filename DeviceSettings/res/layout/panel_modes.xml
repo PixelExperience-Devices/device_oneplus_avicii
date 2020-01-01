@@ -62,30 +62,12 @@ limitations under the License
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <RadioButton
-            android:id="@+id/night_mode"
+            android:id="@+id/wide_mode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:minHeight="?android:attr/listPreferredItemHeight"
             android:gravity="center_vertical"
-            android:text="@string/Night_mode_title"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <RadioButton
-            android:id="@+id/adaptive_mode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minHeight="?android:attr/listPreferredItemHeight"
-            android:gravity="center_vertical"
-            android:text="@string/adaptive_mode_title"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <RadioButton
-            android:id="@+id/oneplus_mode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minHeight="?android:attr/listPreferredItemHeight"
-            android:gravity="center_vertical"
-            android:text="@string/oneplus_mode_title"
+            android:text="@string/wide_mode_title"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </RadioGroup>
