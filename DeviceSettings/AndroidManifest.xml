@@ -29,13 +29,13 @@
 
     <application
         android:icon="@drawable/ic_settings_device"
-        android:label="@string/device_title"
+        android:label="@string/advanced_settings"
         android:theme="@style/AppTheme">
 
         <!-- Device Settings -->
         <activity
             android:name=".DeviceSettingsActivity"
-            android:label="@string/device_title">
+            android:label="@string/advanced_settings">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
@@ -46,7 +46,7 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/device_summary" />
+                android:resource="@string/advanced_settings_summary" />
         </activity>
 
         <activity android:name=".DeviceSettings" />
@@ -62,7 +62,7 @@
         <service
             android:name="org.aosp.device.DeviceSettings.DCModeTileService"
             android:icon="@drawable/ic_dc_tile"
-            android:label="@string/tile_dc_mode"
+            android:label="@string/dc_dimming_enable_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
