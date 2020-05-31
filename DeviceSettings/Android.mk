@@ -33,15 +33,11 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
-    $(TOP)/packages/resources/devicesettings/res
+    $(LOCAL_PATH)/../../../../packages/resources/devicesettings/res \
+    $(LOCAL_PATH)/../../../../packages/resources/devicesettings-custom/res
 
-package_resource_overlays := $(strip \
-    $(wildcard $(foreach dir, $(PRODUCT_PACKAGE_OVERLAYS), \
-      $(addprefix $(dir)/, packages/apps/DeviceSettings/res))) \
-    $(wildcard $(foreach dir, $(DEVICE_PACKAGE_OVERLAYS), \
-      $(addprefix $(dir)/, packages/apps/DeviceSettings/res))))
+LOCAL_AAPT_FLAGS := --auto-add-overlay
 
-LOCAL_RESOURCE_DIR := $(package_resource_overlays) $(LOCAL_RESOURCE_DIR)
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_MODULE_TAGS := optional
 include frameworks/base/packages/SettingsLib/common.mk
