@@ -59,22 +59,4 @@
           android:entries="@array/notification_slider_action_entries"
           android:entryValues="@array/notification_slider_action_entry_values" />
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/category_vibrator">
-        <org.aosp.device.DeviceSettings.VibratorStrengthPreference
-            android:key="vib_strength"
-            android:title="@string/vib_strength_title_head"
-            android:summary="@string/vib_strength_summary_head" />
-
-        <org.aosp.device.DeviceSettings.VibratorCallStrengthPreference
-            android:key="vib_call_strength"
-            android:title="@string/vib_call_strength_title_head"
-            android:summary="@string/vib_call_strength_summary_head" />
-
-        <org.aosp.device.DeviceSettings.VibratorNotifStrengthPreference
-            android:key="vib_notif_strength"
-            android:title="@string/vib_notif_strength_title_head"
-            android:summary="@string/vib_notif_strength_summary_head" />
-    </PreferenceCategory>
 </PreferenceScreen>
