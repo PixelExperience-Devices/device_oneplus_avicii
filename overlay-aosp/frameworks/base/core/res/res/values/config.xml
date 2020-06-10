@@ -28,4 +28,6 @@
         <item>org.lineageos.settings.device.KeyHandler</item>
     </string-array>
 
+    <!-- Whether device supports variable refresh rate -->
+    <bool name="config_hasVariableRefreshRate">true</bool>
 </resources>
