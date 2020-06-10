@@ -26,4 +26,6 @@
     <!-- Allow devices to override audio panel location to the left side. -->
     <bool name="config_audioPanelOnLeftSide">true</bool>
 
+    <!-- Preferred refresh rate at keyguard, if supported by the display -->
+    <integer name="config_keyguardRefreshRate">90</integer>
 </resources>
