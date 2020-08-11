@@ -1,5 +1,3 @@
-# All unpinned blobs below are extracted from OnePlus6Oxygen_22_OTA_042_all_1912142031_0fb330
-
 # ANT+
 -lib/libantradio.so
 -lib64/libantradio.so
@@ -10,6 +8,33 @@ product/lib64/com.qualcomm.qti.ant@1.0.so
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
+# CNE - from LA.UM.8.13.r1-08500-sm8250.0
+etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
+etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
+etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
+product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|75e8a824d368cd4172985c884796381327d950da
+-product/framework/vendor.qti.data.factory-V1.0-java.jar|f0a14b08ab6c2fb85342383235be6b75d67806fb
+-product/framework/vendor.qti.data.factory-V2.0-java.jar|df667317984cf08e06bad7957a6a6390fe5f2bb4
+-product/framework/vendor.qti.data.factory-V2.1-java.jar|3f8d28716003c02d9720c8c83a6d108a82359eae
+-product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar|b42d139ba5c502f1cd2092c35d6bd867c60284f5
+-product/framework/vendor.qti.hardware.data.connection-V1.1-java.jar|a502d317d28d322fe375aa0fd1f46b32d016624a
+-product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar|2d2d18476583ab286920313cf3add3a682bc2dea
+-product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar|853b3d936a1c99c399ec5087051fb863ccebad4f
+product/lib/vendor.qti.data.factory@1.0.so|91cec41f020fd9dd8146c4571785d9fe26082b8d
+product/lib/vendor.qti.data.factory@2.0.so|9dd69d55c814bae720561e626409ab5f3e33e3d5
+product/lib/vendor.qti.data.factory@2.1.so|e0f6eeba970eaaf5f3fb546aa4e108f286017008
+product/lib/vendor.qti.data.slm@1.0.so|61c15b3ff3b75d0aa3db57e980c3f96dbae91460
+product/lib/vendor.qti.hardware.data.connection@1.0.so|c884dfe3c2d876f9798c301b6e531a23ce428429
+product/lib/vendor.qti.hardware.data.dynamicdds@1.0.so|cda783e82a5828b76cea58f95ea39829187eb9ac
+product/lib/vendor.qti.hardware.data.iwlan@1.0.so|9ca81c17df82b0d62f452afef44fccaccdc86fa2
+product/lib64/vendor.qti.data.factory@1.0.so|048b26a8e72c92635d65b7c491d84ccf9f7fa075
+product/lib64/vendor.qti.data.factory@2.0.so|3d394f6124db5ad1987c67737bbc30d4d761cecb
+product/lib64/vendor.qti.data.factory@2.1.so|a311260fce9e7627548decfff5198da6730ccac1
+product/lib64/vendor.qti.data.slm@1.0.so|ce2b2b9cd189f068289deafede8602f2f54bdbc5
+product/lib64/vendor.qti.hardware.data.connection@1.0.so|bafc129093077e470540c906c205d4bb66efff63
+product/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|8cd7aeb0f86d23def5c0269c7c9199970058e0eb
+product/lib64/vendor.qti.hardware.data.iwlan@1.0.so|e895462956bca23a950ac92e19d4b227df12ad00
+
 # DASH
 sbin/dashd:bin/dashd
 
@@ -19,6 +44,7 @@ product/lib64/vendor.display.color@1.0.so
 
 # DPM
 framework/tcmclient.jar
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk
 product/bin/dpmd
 product/etc/dpm/dpm.conf
 product/etc/init/dpmd.rc
@@ -41,16 +67,13 @@ product/lib64/libdpmtcm.so
 -priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 
-# IMS
--product/priv-app/ims/ims.apk|1e781720d5a93134bfd65830ffbaf42e19e17641
-product/lib64/libdiag_system.so
-product/lib64/libimscamera_jni.so
-product/lib64/libimsmedia_jni.so
-product/lib64/lib-imsvideocodec.so
-product/lib64/lib-imsvtextutils.so
-product/lib64/lib-imsvt.so
-product/lib64/lib-imsvtutils.so
-product/lib64/vendor.qti.imsrtpservice@2.0.so
+# Latency - from LA.UM.8.13.r1-08500-sm8250.0
+-product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
+-product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
+product/lib/vendor.qti.hardware.data.latency@1.0.so|71638683ed9859d7ab3023fc00a54c614ac13d00
+product/lib/vendor.qti.latency@2.0.so|969704fed6fdda7849169f44206eec3159a957d4
+product/lib64/vendor.qti.hardware.data.latency@1.0.so|02d67f05706fafe49e9cff78f9eb8f4a5a5ff4a0
+product/lib64/vendor.qti.latency@2.0.so|0adf01cc3d3bfe34438b0d755619e3efbd1c63a5
 
 # Media
 lib/libFileMux.so
@@ -67,21 +90,75 @@ framework/com.nxp.nfc.jar
 lib64/libnxpnfc_nci_jni.so
 lib64/libnxpnfc-nci.so
 
-# Telephony
-etc/permissions/privapp-permissions-qti.xml
-etc/permissions/qti_libpermissions.xml
-etc/permissions/qti_permissions.xml
-etc/sysconfig/qti_whitelist.xml
--framework/qcnvitems.jar
--product/app/QtiTelephonyService/QtiTelephonyService.apk
-product/etc/permissions/qcrilhook.xml
-product/etc/permissions/telephonyservice.xml
-product/framework/qcrilhook.jar
-product/framework/QtiTelephonyServicelibrary.jar
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+# QMI - from LA.UM.8.13.r1-08500-sm8250.0
+etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
+etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 
-# Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
-product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
+# Radio - from LA.UM.8.13.r1-08500-sm8250.0
+etc/sysconfig/qti_whitelist.xml|ce1fed1bc641f33eed24ad1c7b39ffe1bd206f0a
+-framework/qcnvitems.jar|a45682e8d9283103e004eb3ed51d371693fbf5aa
+-product/app/datastatusnotification/datastatusnotification.apk|4685df4bb2446950bcb37da83f4acefc69bfcdc3
+-product/app/embms/embms.apk|212b7ce792ac5d47ef50872b270fc83736fcfdb7
+-product/app/QtiTelephonyService/QtiTelephonyService.apk|9758fbbaa7b2a18c01a32200b3a86a4dbc798d3c
+product/etc/permissions/embms.xml|5589ed8da213acd27e2ad2109094561eb1be30a7
+product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
+product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
+-product/framework/embmslibrary.jar|00eb5b4144f001423032a88cc1d227b3655db88b
+-product/framework/qcrilhook.jar|23768fda90519d799e682fd058ec85b7b5cd6f89
+-product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
+-product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
+-product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|71d083671c3ea4cd5e287a63fb254bb0ab60ed20
+
+# Radio-IMS - from LA.UM.8.13.r1-08500-sm8250.0
+-product/app/imssettings/imssettings.apk|5e24e30b6fb5906e13fd8db1f57e30b8b59028ff
+-product/app/uceShimService/uceShimService.apk|91f9ca2e1121ad9ff2805031ade6c685392e636c
+product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
+product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|d52cdba3a8f1c00098568965c0cbaa03502f961e
+product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bc80cc63f55de0d80e9756dd4a9d0afc36072c61
+-product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar|ffd8d94c2b41fef4e422f7247ee164d7ed70ff5d
+-product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar|836ef6801f0a09cde1bbef7af8b282365198fac4
+-product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar|fde4900c414b5666c09ca2e792a0b7ac1be3a808
+-product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar|2f4d6d2681e1adfc249eb6f88858710b12053448
+-product/framework/com.qualcomm.qti.uceservice-V2.1-java.jar|f9dadb1b224d100ecc0a8785bde463d9d1bc7a45
+-product/framework/vendor.qti.ims.callinfo-V1.0-java.jar|a01874e994d2674d538f86de39e9ccbf6ef3fc8c
+-product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|f2a2e5554ad6ae1363a9aa76c6d0e6732bbdc7fb
+product/lib/com.qualcomm.qti.imscmservice@1.0.so|7fc32da517059db0bec71584a2ddb5957e32aee2
+product/lib/com.qualcomm.qti.imscmservice@2.0.so|f63c9b8cdc39438387238250184dc7115ad9b0a1
+product/lib/com.qualcomm.qti.imscmservice@2.1.so|be943b99cec389eac3f008dc425c36f68e3bcde9
+product/lib/com.qualcomm.qti.imscmservice@2.2.so|f003ab10f08ade40625f0eeb2e89caf26dcda480
+product/lib/com.qualcomm.qti.uceservice@2.0.so|3ecf000c6f2b27dbf13363aaf3b4e94e382fdb96
+product/lib/com.qualcomm.qti.uceservice@2.1.so|52a43a3264fb1e1c9f8f67720a2ffc03436474f7
+product/lib/lib-imsvideocodec.so|cbd449e8fd6dcccc493a5759fb04377e642c16f7
+product/lib/lib-imsvt.so|0c2d22cc7305afd128e74e613ffa212893331082
+product/lib/lib-imsvtextutils.so|fe95aec5ab14bfc9a2ea5c113edde19a811d7e38
+product/lib/lib-imsvtutils.so|2ae5c6d002bae87c2e2805e37746cf3e8e9e6689
+product/lib/libdiag_system.so|e850b8f8ef60b06a0a43bab07653bcbf885c39d3
+product/lib/libimscamera_jni.so|f7a5334040b161ad7ee2ffd94d3bd6c8b98eecd0
+product/lib/libimsmedia_jni.so|6195b9cd6bdf21778f72c30bbdf035702e3bc68b
+product/lib/vendor.qti.ims.callinfo@1.0.so|7dbf979f9da3a149700e7ff240f1b1d7dae93fe9
+product/lib/vendor.qti.ims.rcsconfig@1.0.so|e201b1f7f9ca99d97c2fbc4546e37293b7a46255
+product/lib/vendor.qti.ims.rcsconfig@1.1.so|c6c32a91d0f9a217082eea0ad96735f269691720
+product/lib/vendor.qti.imsrtpservice@2.0.so|7cd476bdf9a0eb3298fdbfe2c2b04792fbac406f
+product/lib/vendor.qti.imsrtpservice@2.1.so|001ed55a304404d0f717792250e19354e9cd4059
+product/lib64/com.qualcomm.qti.imscmservice@1.0.so|3ddca2476357eeaed6a996a4043c2a6c9e2e9a48
+product/lib64/com.qualcomm.qti.imscmservice@2.0.so|a5b0132d0f3541d6816ff3f38ee60dbd41bdfca8
+product/lib64/com.qualcomm.qti.imscmservice@2.1.so|c050bbbcebba14c9b5b6ef9781f02ba73968954c
+product/lib64/com.qualcomm.qti.imscmservice@2.2.so|dbfa3ffdb75300091ba5d7db2427a475c8333d54
+product/lib64/com.qualcomm.qti.uceservice@2.0.so|7564411f806eb8d601197066ca3cf5d6a1bdd5ed
+product/lib64/com.qualcomm.qti.uceservice@2.1.so|5a562ea431d27cf70ab7ce2d83a55bc97e6b1304
+product/lib64/lib-imsvideocodec.so|0d9fe2b7aacb55bf2cf1b89616cf4ad9b047e293
+product/lib64/lib-imsvt.so|670ab974ddf4cc2e5a82b7c430aaa7d68e788eb9
+product/lib64/lib-imsvtextutils.so|dbf6d45873e8b4f06cdedc4f1efee886ede702f8
+product/lib64/lib-imsvtutils.so|1627429094c78171be5f6275cecdbcab4ecce1cf
+product/lib64/libdiag_system.so|f59066f4132aa7d55f7731fe6814048161b2540a
+product/lib64/libimscamera_jni.so|41fd9faa10818c9f7c5a14d372a07f79b0ca0daa
+product/lib64/libimsmedia_jni.so|86ff68440540c40834c2e17261f178f7de50549e
+product/lib64/vendor.qti.ims.callinfo@1.0.so|bf2a4a99c4ac33e3453e196e9961568b175f5b1e
+product/lib64/vendor.qti.ims.rcsconfig@1.0.so|3c009fdc33fe7ccfef9025c2911cec0ba9242516
+product/lib64/vendor.qti.ims.rcsconfig@1.1.so|e0f2ac53139a23c4d85e0bf9be7b3ce699967096
+product/lib64/vendor.qti.imsrtpservice@2.0.so|6ef5cd72d34c20e82cb0e58681a4aae9b0dac99a
+product/lib64/vendor.qti.imsrtpservice@2.1.so|6dbe703a5a8389c342008c950aaec7a3a260a055
+-product/priv-app/ims/ims.apk|cbf28683297749589b2100f4816a4635977d9c12
 
 # WiFi Display
 bin/wfdservice
