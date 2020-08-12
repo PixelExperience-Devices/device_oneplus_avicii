@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget
 
+# Device uses high-density artwork where available
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
