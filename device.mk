@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.kona.recovery
+    bootctrl.lito.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -125,8 +125,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.oneplus_kona \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_kona \
+    android.hardware.biometrics.fingerprint@2.1-service.oneplus_lito \
+    lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_lito \
     vendor.oneplus.fingerprint.extension@1.0 \
     vendor.oneplus.hardware.display@1.0
 
@@ -141,11 +141,11 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.oneplus_kona
+    android.hardware.light@2.0-service.oneplus_lito
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.oneplus_kona
+    lineage.livedisplay@2.0-service.oneplus_lito
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -172,11 +172,11 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.oneplus_kona
+    android.hardware.power@1.2-service.oneplus_lito
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    lineage.powershare@1.0-service.oneplus_kona
+    lineage.powershare@1.0-service.oneplus_lito
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
@@ -209,7 +209,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.oneplus_kona
+    lineage.touch@1.0-service.oneplus_lito
 
 # tri-state-key
 PRODUCT_PACKAGES += \

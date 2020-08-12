@@ -15,7 +15,7 @@
 //
 
 cc_library {
-    name: "bootctrl.kona",
+    name: "bootctrl.lito",
     defaults: ["bootctrl_hal_defaults"],
-    static_libs: ["libgptutils.oneplus_kona"],
+    static_libs: ["libgptutils.oneplus_lito"],
 }
