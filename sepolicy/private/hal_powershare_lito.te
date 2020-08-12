@@ -1,9 +1,0 @@
-type hal_powershare_lito, coredomain, domain;
-hal_server_domain(hal_powershare_lito, hal_lineage_powershare)
-
-type hal_powershare_lito_exec, system_file_type, exec_type, file_type;
-init_daemon_domain(hal_powershare_lito)
-
-# Allow access to wireless rx enable nodes
-allow hal_powershare_lito procfs_oem_wireless:dir search;
-allow hal_powershare_lito procfs_oem_wireless:file rw_file_perms;
