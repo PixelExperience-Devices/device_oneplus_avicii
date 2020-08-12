@@ -156,14 +156,6 @@ lib/libmmparser_lite.so
 lib/libOmxMux.so
 lib64/libmmosal.so
 
-# NFC
--app/NxpNfcNci/NxpNfcNci.apk|acb45c0f0fb12508fd2e3849d24eb23c791b8ed0
-etc/nfcee_access.xml
-etc/permissions/com.nxp.nfc.xml
-framework/com.nxp.nfc.jar
-lib64/libnxpnfc_nci_jni.so
-lib64/libnxpnfc-nci.so
-
 # QMI - from LA.UM.8.13.r1-08500-sm8250.0
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
