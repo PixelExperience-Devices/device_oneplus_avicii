@@ -6,10 +6,9 @@
     "remote" :"github"
   },
   {
-    "repository": "CryllicBuster273/caf-4.19",
+    "repository": "kernel_oneplus_sm7250",
     "target_path": "kernel/oneplus/sm7250",
-    "branch": "LA.UM.8.13.r1-09500-SAIPAN.0",
-    "remote": "github"
+    "branch": "ten"
   },
   {
     "repository": "vendor_oneplus_avicii",
