@@ -16,9 +16,9 @@
 
 BOARD_VENDOR := oneplus
 
-COMMON_PATH := device/oneplus/sm8250-common
+DEVICE_PATH := device/oneplus/avicii
 
-TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Architecture
 TARGET_ARCH := arm64
@@ -38,7 +38,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := kona
+TARGET_BOOTLOADER_BOARD_NAME := lito
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
@@ -59,13 +59,13 @@ TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 BUILD_WITHOUT_VENDOR := true
-TARGET_BOARD_PLATFORM := kona
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno650
+TARGET_BOARD_PLATFORM := lito
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno620
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Treble
 BOARD_VNDK_VERSION := current
@@ -100,15 +100,15 @@ TARGET_USES_HWC2 := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Fingerprint
 SOONG_CONFIG_NAMESPACES += ONEPLUS_KONA_FOD
 SOONG_CONFIG_ONEPLUS_KONA_FOD := POS_X POS_Y SIZE
-TARGET_SURFACEFLINGER_FOD_LIB := //$(COMMON_PATH):libfod_extension.oneplus_kona
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.oneplus_kona
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
@@ -132,7 +132,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
@@ -145,8 +145,8 @@ BOARD_ROOT_EXTRA_FOLDERS := op1 op2
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
-BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/qcom/sepolicy/generic/private \
@@ -167,4 +167,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
--include vendor/oneplus/sm8250-common/BoardConfigVendor.mk
+-include vendor/oneplus/avicii/BoardConfigVendor.mk
