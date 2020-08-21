@@ -14,8 +14,8 @@
 // limitations under the License.
 
 cc_binary {
-    name: "lineage.touch@1.0-service.oneplus_kona",
-    init_rc: ["lineage.touch@1.0-service.oneplus_kona.rc"],
+    name: "lineage.touch@1.0-service.oneplus_lito",
+    init_rc: ["lineage.touch@1.0-service.oneplus_lito.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: [

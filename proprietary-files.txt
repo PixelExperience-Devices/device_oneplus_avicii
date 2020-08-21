@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus8ProOxygen_15.E.21_OTA_021_all_2008080100_c953
+# All unpinned blobs below are extracted from Nord-user 10 QKQ1.200412.002 2010231934 release-keys 
 
 # ANT+
 -lib/libantradio.so
@@ -42,7 +42,7 @@ product/lib64/libdpmtcm.so
 -priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 
 # IMS
--product/priv-app/ims/ims.apk|df0b116bec248f6d7402abe3c10379fe7b62759f
+-product/priv-app/ims/ims.apk|cbf28683297749589b2100f4816a4635977d9c12
 product/lib64/libdiag_system.so
 product/lib64/libimscamera_jni.so
 product/lib64/libimsmedia_jni.so
