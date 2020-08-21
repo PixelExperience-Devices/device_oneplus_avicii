@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := android.hardware.power@1.2-service.oneplus_kona
+LOCAL_MODULE := android.hardware.power@1.2-service.oneplus_lito
 LOCAL_MODULE_TAGS  := optional
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/bin
@@ -32,7 +32,7 @@ LOCAL_SRC_FILES := \
     utils.c
 
 LOCAL_REQUIRED_MODULES := \
-    android.hardware.power@1.2-service.oneplus_kona.rc
+    android.hardware.power@1.2-service.oneplus_lito.rc
 
 LOCAL_SHARED_LIBRARIES := \
     android.hardware.power@1.2 \
@@ -49,7 +49,7 @@ include $(BUILD_EXECUTABLE)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := android.hardware.power@1.2-service.oneplus_kona.rc
+LOCAL_MODULE := android.hardware.power@1.2-service.oneplus_lito.rc
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
 

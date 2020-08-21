@@ -13,11 +13,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-oneplus_kona_fod_hal_binary {
+oneplus_lito_fod_hal_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_kona",
-    init_rc: ["lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_kona.rc"],
+    name: "lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_lito",
+    init_rc: ["lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus_lito.rc"],
     srcs: ["service.cpp", "FingerprintInscreen.cpp"],
     shared_libs: [
         "libbase",
@@ -34,7 +34,7 @@ oneplus_kona_fod_hal_binary {
 }
 
 cc_library_static {
-    name: "libfod_extension.oneplus_kona",
+    name: "libfod_extension.oneplus_lito",
     srcs: ["FodExtension.cpp"],
     include_dirs: [
         "frameworks/native/services/surfaceflinger/CompositionEngine/include"
