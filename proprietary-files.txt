@@ -34,6 +34,10 @@ system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 
+# Fingerprint - from Nord-user 11 RP1A.201005.001 2102241606 release-keys
+vendor/lib/libgf_ud_hal.so:product/vendor_overlay/30/lib/libgf_ud_hal.so|b19367e402c05f75fa5728862ce7c2937112e73d
+vendor/lib64/libgf_ud_hal.so:product/vendor_overlay/30/lib64/libgf_ud_hal.so|9c7c7124af138ee2bb633a54b9a625d8661982b9
+
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
