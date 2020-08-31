@@ -741,4 +741,7 @@
 
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
+
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
 </resources>
