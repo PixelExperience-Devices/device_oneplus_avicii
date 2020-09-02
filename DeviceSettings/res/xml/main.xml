@@ -19,16 +19,6 @@
             android:key="dc"
             android:summary="@string/dc_mode_summary"
             android:title="@string/dc_mode_title" />
-
-        <Preference
-            android:key="panel_category"
-            android:title="@string/panel_category_title"
-            android:summary="@string/panel_category_summary"
-            android:persistent="false" >
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.aosp.device.DeviceSettings"
-                    android:targetClass="org.aosp.device.DeviceSettings.PanelSettingsActivity" />
-        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
