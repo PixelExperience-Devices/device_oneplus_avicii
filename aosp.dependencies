@@ -14,7 +14,7 @@
     "repository": "vendor_oneplus_avicii",
     "target_path": "vendor/oneplus/avicii",
     "branch": "ten",
-    "remote": "pixel-devices-bitbucket"
+    "remote": "pixel-devices-blobs"
   },
   {
     "repository": "kdrag0n/proton-clang",
