@@ -42,4 +42,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlusNord \
     PRIVATE_BUILD_DISC="Nord_IND-user 10 QKQ1.200412.002 2007312126 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"
