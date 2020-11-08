@@ -59,6 +59,14 @@ lib/libmmparser_lite.so
 lib/libOmxMux.so
 lib64/libmmosal.so
 
+# NFC
+-app/NxpNfcNci/NxpNfcNci.apk|df6a589a7bc543009e8bc410ee491119bc9a4275
+etc/nfcee_access.xml
+etc/permissions/com.nxp.nfc.xml
+framework/com.nxp.nfc.jar
+lib64/libnxpnfc_nci_jni.so
+lib64/libnxpnfc-nci.so
+
 # Telephony
 etc/permissions/privapp-permissions-qti.xml
 etc/permissions/qti_libpermissions.xml
