@@ -39,7 +39,7 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 29
+PRODUCT_TARGET_VNDK_VERSION := 30
 
 # The first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 29
