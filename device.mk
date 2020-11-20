@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.oneplus_lito
+    android.hardware.power-service.oneplus_lito
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
