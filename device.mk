@@ -228,6 +228,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service.oneplus_lito
+
 # WiFi
 PRODUCT_PACKAGES += \
     WifiResCommon
