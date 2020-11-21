@@ -41,7 +41,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 
 # IMS
--system_ext/priv-app/ims/ims.apk|f98f7f862225726ed808a18ca5a61cbae4ca6333
+-system_ext/priv-app/ims/ims.apk
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
@@ -58,7 +58,7 @@ system_ext/lib64/libmmosal.so
 
 # NFC
 system/etc/nfcee_access.xml
--system_ext/app/NxpNfcNci/NxpNfcNci.apk|05bfc7761dd5c4aab27983b9faabd91340fe8017
+-system_ext/app/NxpNfcNci/NxpNfcNci.apk
 system_ext/etc/permissions/com.nxp.nfc.xml
 system_ext/framework/com.nxp.nfc.jar
 system_ext/lib64/libnxpnfc-nci.so
