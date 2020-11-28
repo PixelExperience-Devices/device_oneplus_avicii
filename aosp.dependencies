@@ -1,0 +1,19 @@
+[
+  {
+    "repository": "LineageOS/android_device_oneplus_common",
+    "target_path": "device/oneplus/common",
+    "branch" :"lineage-18.1",
+    "remote" :"github"
+  },
+  {
+    "repository": "kernel_oneplus_sm7250",
+    "target_path": "kernel/oneplus/sm7250",
+    "branch": "eleven"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  }
+]
