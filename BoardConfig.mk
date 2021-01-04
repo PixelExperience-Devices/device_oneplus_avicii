@@ -27,5 +27,8 @@ SOONG_CONFIG_ONEPLUS_LITO_FOD_POS_X = 436
 SOONG_CONFIG_ONEPLUS_LITO_FOD_POS_Y = 2062
 SOONG_CONFIG_ONEPLUS_LITO_FOD_SIZE = 208
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # inherit from the proprietary version
 -include vendor/oneplus/avicii/BoardConfigVendor.mk
