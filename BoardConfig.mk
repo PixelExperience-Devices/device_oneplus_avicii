@@ -30,5 +30,8 @@ SOONG_CONFIG_ONEPLUS_LITO_FOD_SIZE = 208
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # inherit from the proprietary version
 -include vendor/oneplus/avicii/BoardConfigVendor.mk
