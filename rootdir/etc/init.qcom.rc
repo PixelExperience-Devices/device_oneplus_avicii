@@ -8,6 +8,10 @@ on boot
     # OTG
     write /sys/class/power_supply/usb/otg_switch 1
 
+    # Reduce default vibrator gain from 0x80 to 0x55,
+    # also allow gain customization via persistent property
+    write /sys/class/leds/vibrator/gain ${persist.vendor.vib.gain:-0x55}
+
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
