@@ -1,0 +1,3 @@
+# NFC
+persist.nfc.               u:object_r:persist_nfc_prop:s0
+

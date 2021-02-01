@@ -1,0 +1,2 @@
+type persist_nfc_prop, property_type;
+type vendor_nfc_prop, property_type;
