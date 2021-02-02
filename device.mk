@@ -65,6 +65,9 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# Apex
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong
