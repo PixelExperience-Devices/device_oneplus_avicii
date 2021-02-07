@@ -33,7 +33,7 @@ PRODUCT_NAME := aosp_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus Nord
+PRODUCT_MODEL := Nord
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
