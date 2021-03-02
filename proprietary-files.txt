@@ -60,9 +60,11 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 
+# NFC - from Nord-user 11 RP1A.201005.001 2101181817 release-keys
+-system_ext/app/NxpNfcNci/NxpNfcNci.apk;PRESIGNED|5dfc6020217b287b6e1a5459500ea141aa37cbac
+
 # NFC
 system/etc/nfcee_access.xml
--system_ext/app/NxpNfcNci/NxpNfcNci.apk;PRESIGNED
 system_ext/etc/permissions/com.nxp.nfc.xml
 system_ext/framework/com.nxp.nfc.jar
 system_ext/lib64/libnxpnfc-nci.so
