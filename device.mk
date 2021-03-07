@@ -38,6 +38,11 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/kernel:kernel \
+    $(LOCAL_PATH)/prebuilt/dtb.img:dtb.img
+
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
