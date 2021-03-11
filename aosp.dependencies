@@ -15,5 +15,17 @@
     "target_path": "vendor/oneplus/avicii",
     "branch": "eleven",
     "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "vendor_oneplus_avicii-vendor",
+    "target_path": "vendor/oneplus/avicii-vendor",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
   }
 ]
