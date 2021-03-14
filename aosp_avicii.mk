@@ -28,6 +28,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
+TARGET_USES_CUSTOM_AVB_KEY := true
 
 PRODUCT_NAME := aosp_avicii
 PRODUCT_DEVICE := avicii
