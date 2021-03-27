@@ -153,7 +153,7 @@ PRODUCT_COPY_FILES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.oneplus_lito
+    lineage.livedisplay@2.1-service.oneplus_lito
 
 # Media
 PRODUCT_COPY_FILES += \
