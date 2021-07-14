@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "device_oneplus_sm7250-common",
+    "target_path": "device/oneplus/sm7250-common"
+  },
+  {
+    "repository"  : "vendor_oneplus_avicii",
+    "target_path" : "vendor/oneplus/avicii",
+    "branch"      : "eleven",
+    "remote"      : "pixel-devices-blobs"
+  },
+  {
+    "repository": "vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  }
+]
