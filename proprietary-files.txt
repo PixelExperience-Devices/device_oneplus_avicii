@@ -392,6 +392,12 @@ vendor/lib64/nfc_nci_nxp.so
 # RIL
 vendor/bin/rmt_storage
 
+# Secure element
+-system_ext/app/NxpSecureElement/NxpSecureElement.apk
+vendor/bin/hw/android.hardware.secure_element@1.2-service
+vendor/etc/init/android.hardware.secure_element@1.2-service.rc
+vendor/lib64/ls_client.so
+
 # Sensor
 vendor/etc/sensors/config/bitra_ak991x_0.json
 vendor/etc/sensors/config/bitra_bu52053nvx_0.json
