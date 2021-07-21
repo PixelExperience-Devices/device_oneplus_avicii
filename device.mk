@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service.oneplus_lito
+
 # Inherit from oneplus sm7250-common
 $(call inherit-product, device/oneplus/sm7250-common/common.mk)
 
