@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Nord-user 11 RP1A.201005.001 2102241606 release-keys
+# All unpinned blobs below are extracted from OnePlusNordCE-user 11 RKQ1.201217.002 2106300037 release-keys
 
 # ANT+
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
@@ -60,10 +60,8 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 
-# NFC - from Nord-user 11 RP1A.201005.001 2101181817 release-keys
--system_ext/app/NxpNfcNci/NxpNfcNci.apk;PRESIGNED|5dfc6020217b287b6e1a5459500ea141aa37cbac
-
 # NFC
+-system_ext/app/NxpNfcNci/NxpNfcNci.apk;PRESIGNED
 system/etc/nfcee_access.xml
 system_ext/etc/permissions/com.nxp.nfc.xml
 system_ext/framework/com.nxp.nfc.jar
