@@ -705,3 +705,6 @@ vendor/etc/firmware/wkeyota.b05
 vendor/etc/firmware/wkeyota.b06
 vendor/etc/firmware/wkeyota.b07
 vendor/etc/firmware/wkeyota.mdt
+
+# WiFi
+vendor/bin/cnss-daemon
