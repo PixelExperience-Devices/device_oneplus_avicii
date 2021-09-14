@@ -49,6 +49,7 @@ vendor/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
 
 # Audio
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -72,13 +73,14 @@ vendor/lib/soundfx/libhaptic_effect.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so 
+vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib64/liba2dpoffload.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
