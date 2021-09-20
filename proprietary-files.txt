@@ -389,6 +389,9 @@ vendor/etc/libnfc-nxp_zhengzhoubus.conf
 vendor/lib/libpn553_fw.so
 vendor/lib64/nfc_nci_nxp.so
 
+# ODM feature list
+odm/etc/odm_feature_list
+
 # RIL
 vendor/bin/rmt_storage
 
