@@ -53,13 +53,13 @@ PRODUCT_COPY_FILES += \
 # tri-state-key
 PRODUCT_PACKAGES += \
     KeyHandler \
-    tri-state-key_daemon
+    tri-state-key_daemon.vendor
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oneplus_lito
+    vendor.qti.hardware.vibrator.service.oneplus
 
 # Inherit from oneplus sm7250-common
 $(call inherit-product, device/oneplus/sm7250-common/common.mk)
