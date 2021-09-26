@@ -4,6 +4,11 @@
     "target_path": "device/oneplus/sm7250-common"
   },
   {
+    "repository": "kernel_oneplus_sm7250",
+    "target_path": "kernel/oneplus/avicii",
+    "branch": "eleven"
+  },
+  {
     "repository"  : "vendor_oneplus_avicii",
     "target_path" : "vendor/oneplus/avicii",
     "branch"      : "eleven",
