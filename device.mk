@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
 # tri-state-key
 PRODUCT_PACKAGES += \
     KeyHandler \
-    tri-state-key_daemon.vendor
+    tri-state-key-calibrate
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
