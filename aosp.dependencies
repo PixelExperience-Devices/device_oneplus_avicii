@@ -11,7 +11,7 @@
   {
     "repository"  : "vendor_oneplus_avicii",
     "target_path" : "vendor/oneplus/avicii",
-    "branch"      : "eleven",
+    "branch"      : "twelve",
     "remote"      : "pixel-devices-blobs"
   },
   {
