@@ -346,7 +346,6 @@ vendor/firmware/ipa_fws.mdt
 
 # NFC
 vendor/etc/libese-nxp.conf
-vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nci_beijingbus.conf
 vendor/etc/libnfc-nci_changancard.conf
 vendor/etc/libnfc-nci_productline.conf
