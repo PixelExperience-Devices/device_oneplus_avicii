@@ -22,9 +22,6 @@
 # definition file).
 #
 
-# Google Camera
-$(call inherit-product-if-exists, packages/apps/GoogleCamera/config.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \

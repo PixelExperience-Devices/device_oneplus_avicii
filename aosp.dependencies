@@ -19,11 +19,5 @@
     "target_path": "vendor/oneplus/firmware",
     "branch": "eleven",
     "remote": "pixel-devices-blobs"
-  },
-  {
-    "repository": "KakatkarAkshay/packages_apps_GoogleCamera",
-    "target_path": "packages/apps/GoogleCamera",
-    "branch": "twelve",
-    "remote": "gitlab"
   }
 ]
