@@ -23,7 +23,7 @@
   {
     "repository": "KakatkarAkshay/packages_apps_GoogleCamera",
     "target_path": "packages/apps/GoogleCamera",
-    "branch": "eleven",
+    "branch": "twelve",
     "remote": "gitlab"
   }
 ]
