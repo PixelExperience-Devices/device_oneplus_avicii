@@ -20,10 +20,16 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
-    <bool name="config_roundedCornerMultipleRadius">true</bool>
 
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">109</integer>
 
+    <!-- Default rounded corner curve (a Bezier). Must match (the curved path in) rounded.xml.
+         Note that while rounded.xml includes the entire path (including the horizontal and vertical
+         corner edges), this pulls out just the curve.
+     -->
+    <string name="config_rounded_mask" translatable="false">M 22,0 C 19.94,0.01 18.83,0.04 17.73,0.11 C 16.91,0.17 16.09,0.25 15.3,0.36 C 14.5,0.48 13.72,0.62 12.95,0.81 C 11.42,1.19 9.97,1.72 8.65,2.43 C 7.32,3.14 6.12,4.02 5.08,5.07 C 4.04,6.11 3.15,7.31 2.44,8.64 C 1.73,9.97 1.19,11.42 0.82,12.94 C 0.63,13.7 0.48,14.49 0.37,15.29 C 0.25,16.09 0.17,16.9 0.12,17.72 C 0.05,18.82 0.02,19.93 0.01,21.55</string>
+
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size">118px</dimen>
 </resources>
