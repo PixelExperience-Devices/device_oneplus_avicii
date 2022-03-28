@@ -6,7 +6,7 @@
   {
     "repository": "kernel_oneplus_sm7250",
     "target_path": "kernel/oneplus/avicii",
-    "branch": "eleven"
+    "branch": "twelve"
   },
   {
     "repository"  : "vendor_oneplus_avicii",
