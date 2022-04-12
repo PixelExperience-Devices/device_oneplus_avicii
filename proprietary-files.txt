@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Nord-user 11 RP1A.201005.001 2110142331 release-keys 
+# All unpinned blobs below are extracted from Nord-user 11 RP1A.201005.001 2203101722 release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
