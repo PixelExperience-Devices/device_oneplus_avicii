@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">95</item>
-    <item name="screen.full">588</item>
+    <item name="ambient.on">32</item>
+    <item name="screen.on">98</item>
+    <item name="screen.full">470</item>
     <item name="bluetooth.active">90</item>
     <item name="bluetooth.on">1</item>
     <item name="wifi.on">8</item>
     <item name="wifi.active">190</item>
     <item name="wifi.scan">127</item>
-    <item name="audio">43</item>
-    <item name="video">62</item>
+    <item name="audio">75</item>
+    <item name="video">25</item>
     <item name="camera.flashlight">118</item>
     <item name="camera.avg">547</item>
     <item name="radio.active">103</item>
@@ -25,64 +26,36 @@
         <value>1</value>
     </array>
     <array name="cpu.core_speeds.cluster0">
-        <value>614400</value>
-        <value>864000</value>
-        <value>1075200</value>
-        <value>1363200</value>
-        <value>1516800</value>
-        <value>1651200</value>
-        <value>1804800</value>
+        <value>1516800</value> <!-- 1516 MHz CPU speed -->
+        <value>1804800</value> <!-- 1804 MHz CPU speed -->
     </array>
     <array name="cpu.core_speeds.cluster1">
-        <value>652800</value>
-        <value>940800</value>
-        <value>1152000</value>
-        <value>1478400</value>
-        <value>1728000</value>
-        <value>1900800</value>
-        <value>2092800</value>
-        <value>2208000</value>
+        <value>1478400</value> <!-- 1516 MHz CPU speed -->
+        <value>1728000</value> <!-- 1728 MHz CPU speed -->
+        <value>2208000</value> <!-- 2208 MHz CPU speed -->
     </array>
     <array name="cpu.core_speeds.cluster2">
-        <value>806400</value>
-        <value>1094400</value>
-        <value>1401600</value>
-        <value>1766400</value>
-        <value>1996800</value>
-        <value>2188800</value>
-        <value>2304000</value>
-        <value>2400000</value>
+        <value>1766400</value> <!-- 1766 MHz CPU speed -->
+        <value>2188800</value> <!-- 2188 MHz CPU speed -->
+        <value>2304000</value> <!-- 2304 MHz CPU speed -->
+        <value>2400000</value> <!-- 2400 MHz CPU speed -->
     </array>
     <array name="cpu.core_power.cluster0">
-        <value>30.84</value>
-        <value>33.56</value>
-        <value>37.15</value>
-        <value>45.34</value>
-        <value>49.79</value>
-        <value>56.15</value>
-        <value>63.00</value>
+      <value>140.72</value> <!-- 1516 MHz CPU speed -->
+      <value>176.19</value> <!-- 1804 MHz CPU speed -->
     </array>
     <array name="cpu.core_power.cluster1">
-        <value>49.44</value>
-        <value>64.67</value>
-        <value>75.42</value>
-        <value>108.24</value>
-        <value>155.02</value>
-        <value>183.07</value>
-        <value>220.45</value>
-        <value>244.66</value>
+      <value>51.02</value> <!-- 1478 MHz CPU speed -->
+      <value>77.06</value> <!-- 1728 MHz CPU speed -->
+      <value>101.61</value> <!-- 2208 MHz CPU speed -->
     </array>
     <array name="cpu.core_power.cluster2">
-        <value>120.54</value>
-        <value>150.44</value>
-        <value>184.89</value>
-        <value>240.27</value>
-        <value>267.03</value>
-        <value>285.85</value>
-        <value>297.66</value>
-        <value>319.02</value>
+      <value>104.91</value> <!-- 1766 MHz CPU speed -->
+      <value>118.53</value> <!-- 2188 MHz CPU speed -->
+      <value>122.34</value> <!-- 2304 MHz CPU speed -->
+      <value>135.00</value> <!-- 2400 MHz CPU speed -->
     </array>
-    <item name="cpu.idle">6</item>
+    <item name="cpu.idle">5.4</item>
     <item name="cpu.awake">8</item>
     <item name="battery.capacity">4115</item>
     <array name="wifi.batchedscan">
@@ -92,6 +65,4 @@
         <value>.2</value>
         <value>2</value>
     </array>
-    <allow-in-power-save package="com.google.android.gms" />
-    <allow-in-data-usage-save package="com.google.android.gms" />
 </device>
