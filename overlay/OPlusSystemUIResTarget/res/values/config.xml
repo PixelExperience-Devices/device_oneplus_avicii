@@ -21,9 +21,6 @@
      for different hardware and product builds. -->
 <resources>
 
-    <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
-    <bool name="config_roundedCornerMultipleRadius">true</bool>
-
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">107</integer>
 
