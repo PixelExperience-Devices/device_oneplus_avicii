@@ -354,7 +354,6 @@ vendor/etc/libnfc-nci_suzhoutong.conf
 vendor/etc/libnfc-nci_wuhantong.conf
 vendor/etc/libnfc-nci_yangchengtong.conf
 vendor/etc/libnfc-nci_zhengzhoubus.conf
-vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp_beijingbus.conf
 vendor/etc/libnfc-nxp_changancard.conf
 vendor/etc/libnfc-nxp_noeSE.conf
