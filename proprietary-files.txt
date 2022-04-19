@@ -378,9 +378,6 @@ vendor/etc/libnfc-nxp_zhengzhoubus.conf
 vendor/lib/libpn553_fw.so|e17e1d78a1bb81563c6a47e029f5b04920cf9958
 vendor/lib64/nfc_nci_nxp.so
 
-# ODM feature list
-odm/etc/odm_feature_list
-
 # Sensor
 vendor/etc/sensors/config/bitra_ak991x_0.json
 vendor/etc/sensors/config/bitra_bu52053nvx_0.json
