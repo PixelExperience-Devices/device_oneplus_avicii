@@ -555,9 +555,6 @@ vendor/firmware/tp/FW_20801_SY771.bin
 vendor/firmware/tp/LIMIT_20801_GT885.img
 vendor/firmware/tp/LIMIT_20801_SY771.img
 
-# Thermal engine
-vendor/etc/thermal-engine.conf
-
 # Vibrator firmware
 vendor/firmware/100ms_RTP.bin
 vendor/firmware/120ms_RTP.bin
