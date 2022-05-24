@@ -26,7 +26,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # PixelExperience Properties
 TARGET_USES_AOSP_RECOVERY := true
-TARGET_USES_CUSTOM_AVB_KEY := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := aosp_avicii
 PRODUCT_DEVICE := avicii
