@@ -1,7 +1,8 @@
 [
   {
     "repository": "device_oneplus_sm7250-common",
-    "target_path": "device/oneplus/sm7250-common"
+    "target_path": "device/oneplus/sm7250-common",
+    "branch": "twelve-plus"
   },
   {
     "repository": "kernel_oneplus_sm7250",
