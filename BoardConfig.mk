@@ -57,9 +57,6 @@ BOARD_USES_ALSA_AUDIO := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
