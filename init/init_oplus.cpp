@@ -37,50 +37,14 @@ void vendor_load_properties() {
     auto rf_version = std::stoi(GetProperty("ro.boot.rf_version", "0"));
 
     switch (rf_version) {
-        case 11: // CN
-            if (device == "OnePlus8") {
-                OverrideProperty("ro.product.product.model", "IN2010");
-            } else if (device == "OnePlus8T") {
-                OverrideProperty("ro.product.product.model", "KB2000");
-            } else if (device == "OnePlus8Pro") {
-                OverrideProperty("ro.product.product.model", "IN2020");
-            }
-            break;
-        case 12: // TMO
-            if (device == "OnePlus8") {
-                OverrideProperty("ro.product.product.model", "IN2017");
-            } else if (device == "OnePlus8T") {
-                OverrideProperty("ro.product.product.model", "KB2007");
-            } else if (device == "OnePlus8Pro") {
-                OverrideProperty("ro.product.product.model", "IN2027");
-            }
-            break;
         case 13: // IN
-            if (device == "OnePlus8") {
-                OverrideProperty("ro.product.product.model", "IN2011");
-            } else if (device == "OnePlus8T") {
-                OverrideProperty("ro.product.product.model", "KB2001");
-            } else if (device == "OnePlus8Pro") {
-                OverrideProperty("ro.product.product.model", "IN2021");
-            }
+            OverrideProperty("ro.product.product.model", "AC2001");
             break;
         case 14: // EU
-            if (device == "OnePlus8") {
-                OverrideProperty("ro.product.product.model", "IN2013");
-            } else if (device == "OnePlus8T") {
-                OverrideProperty("ro.product.product.model", "KB2003");
-            } else if (device == "OnePlus8Pro") {
-                OverrideProperty("ro.product.product.model", "IN2023");
-            }
+            OverrideProperty("ro.product.product.model", "AC2003");
             break;
         case 15: // NA
-            if (device == "OnePlus8") {
-                OverrideProperty("ro.product.product.model", "IN2015");
-            } else if (device == "OnePlus8T") {
-                OverrideProperty("ro.product.product.model", "KB2005");
-            } else if (device == "OnePlus8Pro") {
-                OverrideProperty("ro.product.product.model", "IN2025");
-            }
+            OverrideProperty("ro.product.product.model", "AC2005");
             break;
         default:
             LOG(ERROR) << "Unexpected RF version: " << rf_version;
