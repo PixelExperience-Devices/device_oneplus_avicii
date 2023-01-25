@@ -1199,7 +1199,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so|9e7805fbc289224be834e5523a63421817
 # Thermal engine - from LA.UM.9.12.r1-14400-SMxx50.QSSI13.0
 vendor/bin/thermal-engine|8b2951e0545aad1d4fb1f565303deda7e696f208
 vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 -vendor/lib/libthermalclient.so|20114bc026d44fd2599f6ea11814c0f47608d2ff
 -vendor/lib64/libthermalclient.so|5717255cb13238f094b121066acc6f7b16335508
 
