@@ -37,4 +37,6 @@
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
 
+    <!-- Location on the screen of the center of the physical power button. -->
+    <dimen name="physical_power_button_center_screen_location_y">875px</dimen>
 </resources>
