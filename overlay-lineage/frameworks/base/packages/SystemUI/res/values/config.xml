@@ -6,6 +6,6 @@
 <resources>
 
     <!-- Color of the UDFPS Pressed view -->
-    <color name="config_udfpsColor">#ffffe6</color>
+    <color name="config_udfpsColor">#ccccac</color>
 
 </resources>
