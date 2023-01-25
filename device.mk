@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
     OPlusFrameworksResTarget \
+    OPlusSettingsProviderResTarget \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
     OPlusSystemUIResTarget \
