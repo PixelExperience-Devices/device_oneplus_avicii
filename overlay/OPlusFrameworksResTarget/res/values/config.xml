@@ -355,4 +355,11 @@
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
 
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2166</item> <!-- <item>sensorLocationY</item> -->
+        <item>104</item>   <!-- <item>sensorRadius</item> -->
+    </integer-array>
+
 </resources>
