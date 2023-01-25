@@ -233,6 +233,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
     init.class_main.sh \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery \
