@@ -15,6 +15,7 @@ persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.spv3.enable=true
 persist.vendor.audio.voicecall.speaker.stereo=true
+persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.adm.buffering.ms=2
@@ -23,7 +24,7 @@ vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.enable.mirrorlink=false
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
-vendor.audio.feature.anc_headset.enable=false
+vendor.audio.feature.anc_headset.enable=true
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.battery_listener.enable=true
 vendor.audio.feature.compr_cap.enable=false
@@ -110,19 +111,22 @@ persist.vendor.bluetooth.modem_nv_support=true
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptiver2
-persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
-persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
-persist.vendor.qcom.bluetooth.soc=hastings
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=false
+persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.scram.enabled=false
+persist.vendor.qcom.bluetooth.soc=cherokee
+persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
-vendor.qcom.bluetooth.soc=hastings
+vendor.qcom.bluetooth.soc=cherokee
 
 # Bluetooth Name
-bluetooth.device.default_name=OnePlus 8T
+bluetooth.device.default_name=OnePlus Nord
 
 # Chipset
 ro.soc.manufacturer=QTI
-ro.soc.model=SM8250
+ro.soc.model=SM7250
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
@@ -132,15 +136,13 @@ ro.crypto.volume.metadata.method=dm-default-key
 # Display
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_offline_rotator=1
-vendor.display.disable_system_load_check=1
 vendor.display.enable_async_powermode=0
 vendor.display.enable_camera_smooth=1
-vendor.display.not_switch_qhd_120hz=1
-vendor.display.primary_mixer_stages=9
-vendor.display.show_memc_tomast=true
+vendor.display.layer_classifier_type=1
+vendor.display.primary_mixer_stages=8
 vendor.display.smomo_camera_support=1
 vendor.display.smomo_game_support=0
-vendor.display.use_layer_ext=1
+vendor.display.smomo_strategy_type=1
 vendor.display.use_smooth_motion=1
 
 # DPM
@@ -161,11 +163,14 @@ vendor.gatekeeper.disable_spu=true
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_advanced_sf_phase_offset=1
-debug.sf.enable_gl_backpressure=1
-debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
+debug.sf.enable_hwc_vds=1
+debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
-debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
+debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
 debug.sf.latch_unsignaled=1
+debug.sf.perf_fps_early_gl_phase_offset_ns=-5000000
+debug.sf.perf_fps_early_phase_offset_ns=-5000000
+debug.sf.perf_fps_late_sf_phase_offset_ns=-5000000
 persist.sys.sf.color_saturation=1.0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
@@ -174,10 +179,9 @@ ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.protected_contents=true
-ro.surface_flinger.set_idle_timer_ms=4000
-ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=0
 ro.surface_flinger.use_color_management=true
-ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.opengles.version=196610
 
@@ -189,7 +193,7 @@ debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 
 # Netflix
-ro.netflix.bsp_rev=Q8250-19134-1
+ro.netflix.bsp_rev=Q7250-19133-1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
@@ -199,12 +203,14 @@ persist.vendor.qcomsysd.enabled=1
 
 # Radio
 persist.vendor.radio.apm_sim_not_pwdn=1
-persist.vendor.radio.custom_ecc=1
+persist.vendor.radio.atfwd.start=true
+persist.vendor.radio.custom_ecc=0
 persist.vendor.radio.enableadvancedscan=true
+persist.vendor.radio.poweron_opt=1
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.sib16_support=1
-ro.telephony.default_network=33,22
+ro.telephony.default_network=33,33
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
