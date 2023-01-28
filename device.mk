@@ -313,7 +313,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
@@ -341,6 +341,9 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # RIL
 PRODUCT_PACKAGES += \
