@@ -14,10 +14,6 @@ on fs
     write /proc/touchpanel/tp_fw_update 0
 
 on early-boot
-    # Radio
-    exec_start oplus-sh
-    setprop persist.radio.multisim.config ${vendor.radio.multisim.config}
-
     # SSR
     write /sys/bus/msm_subsys/devices/subsys0/restart_level RELATED
     write /sys/bus/msm_subsys/devices/subsys1/restart_level RELATED
