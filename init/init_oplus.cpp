@@ -40,11 +40,8 @@ void vendor_load_properties() {
         case 13: // IN
             OverrideProperty("ro.product.product.model", "AC2001");
             break;
-        case 14: // EU
+        case 14: // EU/GLO
             OverrideProperty("ro.product.product.model", "AC2003");
-            break;
-        case 15: // NA
-            OverrideProperty("ro.product.product.model", "AC2005");
             break;
         default:
             LOG(ERROR) << "Unexpected RF version: " << rf_version;
