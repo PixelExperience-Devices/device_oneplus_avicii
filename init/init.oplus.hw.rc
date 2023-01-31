@@ -6,9 +6,3 @@
 
 on property:ro.boot.rf_version=13
     setprop ro.boot.hardware.revision "IN"
-
-on property:ro.boot.rf_version=14
-    setprop ro.boot.hardware.revision "EU"
-
-on property:ro.boot.rf_version=15
-    setprop ro.boot.hardware.revision "NA"
