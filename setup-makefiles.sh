@@ -30,6 +30,7 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 # Warning headers and guards
 write_headers
 
+write_makefiles "${MY_DIR}/proprietary-files-caf.txt" true
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
 # Finish
