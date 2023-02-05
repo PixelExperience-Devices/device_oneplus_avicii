@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
+    audio.primary.lito \
     audio.r_submix.default \
     audio.usb.default \
     liba2dpoffload \
