@@ -1,6 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
 ## from LA.UM.9.12.r1-14400-SMxx50.QSSI13.0 for VENDOR.
-## from LA.QSSI.13.0.r1-09000-qssi.0 for QSSI.
+## from LA.QSSI.13.0.r1-09200-qssi.0 for QSSI.
 
 # ADSP
 vendor/bin/adsprpcd
