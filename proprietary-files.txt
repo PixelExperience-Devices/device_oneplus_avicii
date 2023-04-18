@@ -434,6 +434,13 @@ odm/etc/nfc/libnfc-nci.conf_20801:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/libnfc-nxp.conf_20801:vendor/etc/libnfc-nxp.conf
 odm/lib/libpn553_fw.so:vendor/lib64/libpn553_fw.so
 
+# Perf (Configs)
+vendor/etc/perf/commonresourceconfigs.xml
+vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/perfconfigstore.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
+
 # Sensors
 odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
 odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc
