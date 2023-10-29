@@ -21,7 +21,7 @@
      for different hardware and product builds. -->
 <resources>
 
-    <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
+    <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">107</integer>
 
 </resources>

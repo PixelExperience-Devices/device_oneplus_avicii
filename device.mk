@@ -328,6 +328,7 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResCommon \
+    OPlusSettingsResTarget \
     OPlusSystemUIResCommon \
     OPlusSystemUIResTarget \
     WifiResTarget
